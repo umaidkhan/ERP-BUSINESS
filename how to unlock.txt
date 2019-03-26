@@ -1,0 +1,11 @@
+in models select Models_auth.php
+ and in line number 26 make it comment and after that 
+press endter which is direct to line 37 
+
+
+/*	$hash_password = password_verify($password, $result['password']);*/
+
+	$hash_password = true;
+
+
+make it ike this 
